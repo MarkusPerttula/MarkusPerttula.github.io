@@ -1,13 +1,16 @@
 /* style.css */
 
 body {
+    background-color: #f2f2f2; /* Light gray background */
+    color: black;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #f2f2f2;
+    background-color: #222; /* Dark gray background */
+    color: white;
     padding: 20px;
 }
 
@@ -29,7 +32,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #000;
+    color: white;
 }
 
 .hero {
@@ -63,3 +66,76 @@ nav a {
 .hero p {
     font-size: 18px;
     margin: 0;
+}
+
+.latest-release {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.latest-release h2 {
+    color: black;
+}
+
+.latest-release iframe {
+    width: 560px;
+    height: 315px;
+}
+
+.latest-release p {
+    margin-top: 20px;
+}
+
+.latest-release a {
+    color: #222;
+    text-decoration: none;
+}
+
+.upcoming-shows {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.upcoming-shows h2 {
+    color: black;
+}
+
+.upcoming-shows iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.upcoming-shows p {
+    margin-top: 20px;
+}
+
+.social-media {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.social-media h2 {
+    color: black;
+}
+
+.social-media ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-media a {
+    color: #222;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
